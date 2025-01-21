@@ -4,7 +4,7 @@ This is for the course TFE4940 Electronic Systems Design and Innovation, Master'
 
 This git repository contains code for the thesis which explores an automatic detection of PD based on speech analysis by utilizing x-vector speech representations from both a pre-trained and custom-trained x-vector model from SpeechBrain.
 
-# About the files
+# About the files in folders
 * code:
 This folder contains the main code file for the binary classification system with x-vector embeddings from x-vector models and classification models.
  
