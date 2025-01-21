@@ -14,9 +14,9 @@ This folder contains a file with the meta data about the PD patients and HC spea
 * customtrained-xvector-model:
 This folder provides the necessary files for training a binary classification model from scratch based on the tutorial 
 "Speech Classification From Scratch" (https://speechbrain.readthedocs.io/en/latest/tutorials/tasks/speech-classification-from-scratch.html).
-
-There are four files here:
-* `train.py`: the main code file, outlines the entire training process.
-* `train.yaml`: the hyperparameters file, sets all parameters of execution.
-* `custom_model.py`: A file containing the definition of a PyTorch module.
-* `mini_librispeech_prepare.py`: If necessary, downloads and prepares data manifests.
+     
+     There are four files here:
+     * `train.py`: the main code file, outlines the entire training process.
+     * `train.yaml`: the hyperparameters file, sets all parameters of execution.
+     * `custom_model.py`: A file containing the definition of a PyTorch module.
+     * `mini_librispeech_prepare.py`: If necessary, downloads and prepares data manifests.
