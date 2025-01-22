@@ -6,7 +6,7 @@ This git repository contains code for the thesis which explores an automatic det
 
 # About the files in folders
 * code:
-This folder contains the main code file for the binary classification system with x-vector embeddings from x-vector models and classification models.
+This folder contains the main code file for the binary classification system with x-vector embeddings from x-vector models and classification models to classify between PD or HC.
  
 * metadata:
 This folder contains a file with the meta data about the PD patients and HC speakers in the PC-GITA database.
