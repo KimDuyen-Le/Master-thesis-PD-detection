@@ -12,11 +12,11 @@ This folder contains the main code file for the binary classification system wit
 This folder contains a file with the meta data about the PD patients and HC speakers in the PC-GITA database.
 
 * customtrained-xvector-model:
-This folder provides the necessary files for training a binary classification model from scratch based on the tutorial 
+This folder provides the necessary files for training a binary classification model from scratch using x-vectors based on the tutorial 
 "Speech Classification From Scratch" (https://speechbrain.readthedocs.io/en/latest/tutorials/tasks/speech-classification-from-scratch.html).
      
      There are four files here:
-     * `train.py`: the main code file, outlines the entire training process.
+     * `train.py`: the main code file, outlines the entire training process for the x-vector pipeline.
      * `train.yaml`: the hyperparameters file, sets all parameters of execution.
      * `custom_model.py`: A file containing the definition of a PyTorch module.
-     * `mini_librispeech_prepare.py`: If necessary, downloads and prepares data manifests.
+     * `mini_librispeech_prepare.py`: If necessary, creates data manifest files for PC-GITA dataset. These manifest files are created from the dataset that is already split into training, validation and test set.
